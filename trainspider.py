@@ -41,13 +41,13 @@ class TrainSpider():
         print("登录成功")
 
     def get_code(self):
-        with open("file/stations.csv", "r", encoding="utf-8") as fp:
+        with open("stations.csv", "r", encoding="utf-8") as fp:
             lines = csv.DictReader(fp)
             for line in lines:
                 if line["name"] == self.from_staion:
                     self.from_station_code = line["code"]
                     break
-        with open("file/stations.csv", "r", encoding="utf-8") as fp:
+        with open("stations.csv", "r", encoding="utf-8") as fp:
             lines = csv.DictReader(fp)
             for line in lines:
                 if line["name"] == self.to_staion:
