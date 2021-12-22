@@ -9,7 +9,7 @@
     <li>把【trainspider.py】和【stations.csv】这两个文件下载下来放到一起</li>
     <li>准备任意一个可以运行Python代码的编译器（笔者推荐pycharm，其他的也完全可以，安装方式可以问度娘）</li>
     <li>在这个网址里【 http://npm.taobao.org/mirrors/chromedriver/ 】找到与你的谷歌浏览器版本相同的核，点击下载下来，命名为【chromedriver】</li>
-    <li>在你想要运行这份儿刷步代码的环境下安装selenium包
+    <li>在你想要运行这份儿抢票代码的环境下安装selenium包
         <ul>
             <li>按win+R，输入cmd并敲回车</li>
             <li>进入你的虚拟环境（当然如果你不是专业Python开发者，忽略这步，因为你用基础环境就可以了）</li>
